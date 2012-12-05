@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:py="http://purl.org/kid/ns#"
+    py:extends="'master.kid'">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" py:replace="''"/>
+	<title>FighterMan - Fight Results</title>
+</head>
+<body>
+	<h1 id="title_arena">Fight Results</h1>
+	<h1>Fight Results</h1>	
+	<br />
+	<table id="card" py:if="result != 2">
+		<tr>
+			<th colspan="14">Scorecard</th>
+		</tr>
+		<tr>
+			<th>Fighters</th>
+			<th py:for="i in range(1,13)" py:content="i"/>
+		</tr>
+		<tr>
+			<td>${player}</td>
+			<td py:for="score in scorecard">
+				<span py:if="score == 1">10</span>
+				<span py:if="score != 1">9</span>
+			</td>
+		</tr>
+		<tr>
+			<td>${opponent}</td>
+			<td py:for="score in scorecard">
+				<span py:if="score == -1">10</span>
+				<span py:if="score != -1">9</span>
+			</td>
+		</tr>
+		<tr>
+<<<<<<< .mine
+			<th colspan="14">
+				<p py:if="result == 1 and len(scorecard) != 12">Your fighter won by knockout in round ${len(scorecard)+1}! Gained ${expgain} experience and $ ${winnings}.</p>
+				<p py:if="result == 1 and len(scorecard) == 12">Your fighter won by decision after 12 rounds! Gained ${expgain} experience and $ ${winnings}.</p>
+=======
+			<th colspan="13">
+				<p py:if="result == 1 and scorecard[-1] == '-'">Your fighter won by knockout in round ${scorecard.index(2) + 1}! Gained ${expgain} experience and $ ${winnings}.</p>
+				<p py:if="result == 1 and scorecard[-1] != '-'">Your fighter won by decision after 12 rounds! Gained ${expgain} experience and $ ${winnings}.</p>
+>>>>>>> .r169
+				<p py:if="result == 0">The fight was a draw!</p>
+<<<<<<< .mine
+				<p py:if="result == -1 and len(scorecard) == 12">Your fighter lost by decision after 12 rounds.</p>
+				<p py:if="result == -1 and len(scorecard) != 12">Your fighter lost by knockout in round ${len(scorecard)+1}.</p>				
+=======
+				<p py:if="result == -1 and scorecard[-1] == '-'">Your fighter lost by decision after 12 rounds.</p>
+				<p py:if="result == -1 and scorecard[-1] != '-'">Your fighter lost by knockout in round ${scorecard.index(-2) + 1}.</p>				
+>>>>>>> .r169
+				<p py:if="result == 2">You can't fight that opponent...</p>
+			</th>
+		</tr>
+	</table>
+	<a id="fightagain" class="floatRight" href="${std.url('/arena', opp=opponent)}">Fight Again?</a>
+</body>
+</html>

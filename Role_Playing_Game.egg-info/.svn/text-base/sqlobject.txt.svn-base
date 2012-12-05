@@ -1,0 +1,2 @@
+db_module=rpg.model
+history_dir=$base/rpg/sqlobject-history

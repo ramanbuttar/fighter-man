@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CMPT470-1084-group9/!svn/ver/173/project/Role-Playing-Game/rpg/templates
+END
+shop.kid
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1084-group9/!svn/ver/172/project/Role-Playing-Game/rpg/templates/shop.kid
+END
+master.kid
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1084-group9/!svn/ver/128/project/Role-Playing-Game/rpg/templates/master.kid
+END
+gym.kid
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CMPT470-1084-group9/!svn/ver/162/project/Role-Playing-Game/rpg/templates/gym.kid
+END
+chat.kid
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1084-group9/!svn/ver/171/project/Role-Playing-Game/rpg/templates/chat.kid
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1084-group9/!svn/ver/18/project/Role-Playing-Game/rpg/templates/__init__.py
+END
+fightresults.kid
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1084-group9/!svn/ver/173/project/Role-Playing-Game/rpg/templates/fightresults.kid
+END
+register.kid
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1084-group9/!svn/ver/167/project/Role-Playing-Game/rpg/templates/register.kid
+END
+auctions.kid
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1084-group9/!svn/ver/155/project/Role-Playing-Game/rpg/templates/auctions.kid
+END
+arena.kid
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1084-group9/!svn/ver/159/project/Role-Playing-Game/rpg/templates/arena.kid
+END
+home.kid
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1084-group9/!svn/ver/159/project/Role-Playing-Game/rpg/templates/home.kid
+END
+login.kid
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1084-group9/!svn/ver/170/project/Role-Playing-Game/rpg/templates/login.kid
+END

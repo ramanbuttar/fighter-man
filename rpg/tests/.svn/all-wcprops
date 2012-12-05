@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CMPT470-1084-group9/!svn/ver/18/project/Role-Playing-Game/rpg/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CMPT470-1084-group9/!svn/ver/18/project/Role-Playing-Game/rpg/tests/__init__.py
+END
+test_model.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1084-group9/!svn/ver/18/project/Role-Playing-Game/rpg/tests/test_model.py
+END
+test_controllers.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/CMPT470-1084-group9/!svn/ver/18/project/Role-Playing-Game/rpg/tests/test_controllers.py
+END
